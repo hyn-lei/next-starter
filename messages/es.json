@@ -1,0 +1,352 @@
+{
+  "themeToggle": {
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema",
+    "toggleTheme": "Cambiar tema"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "features": "Características",
+    "showcase": "Casos de éxito",
+    "howItWorks": "Cómo funciona",
+    "faq": "Preguntas frecuentes",
+    "blog": "Blog",
+    "startConverting": "Comenzar",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "contact": "Contacto",
+    "explore": "Explorar",
+    "tool1": "Procesamiento de datos",
+    "tool2": "Gestión de contenido",
+    "tool3": "Análisis y estadísticas",
+    "tool4": "Colaboración",
+    "tools": "Módulos de funciones",
+    "tool1Desc": "Herramienta de procesamiento de datos - Soporta importación y exportación de varios formatos",
+    "tool2Desc": "Herramienta de gestión de contenido - Proporciona editor de texto enriquecido y gestión de medios",
+    "tool3Desc": "Herramienta de análisis - Visualización de datos y generación de informes",
+    "tool4Desc": "Herramienta de colaboración - Trabajo en equipo y notificaciones"
+  },
+  "userNav": {
+    "signIn": "Iniciar sesión",
+    "signUp": "Registrarse",
+    "profile": "Perfil",
+    "settings": "Configuración",
+    "billing": "Facturación",
+    "signOut": "Cerrar sesión",
+    "user": "Usuario",
+    "deleteAccount": "Eliminar cuenta",
+    "manageAccount": "Gestionar la configuración de su cuenta",
+    "accountOverview": "Resumen de cuenta",
+    "accountInfo": "Su información personal",
+    "memberSince": "Miembro desde",
+    "deleteAccountWarning": "Advertencia: Eliminar cuenta",
+    "deleteAccountDescription": "Esta acción eliminará permanentemente su cuenta y todos los datos asociados. Esta acción no se puede deshacer.",
+    "deleteAccountConfirm": "Por favor confirme que desea eliminar su cuenta",
+    "deleteAccountIrreversible": "Una vez que su cuenta sea eliminada, todos los datos serán removidos permanentemente. Esta acción no se puede deshacer.",
+    "cancel": "Cancelar",
+    "confirmDelete": "Confirmar eliminación",
+    "email": "Correo electrónico",
+    "name": "Nombre",
+    "quickActions": "Acciones rápidas",
+    "commonTasks": "Tareas comunes",
+    "startConverting": "Comenzar",
+    "membershipFree": "Membresía gratuita",
+    "currentPlan": "Plan actual",
+    "freePlanDescription": "El plan gratuito incluye funciones básicas",
+    "dataManagement": "Gestión de datos",
+    "deleteAccountConfirmTitle": "Confirmar eliminación de cuenta",
+    "deleteAccountConfirmDescription": "Esta acción eliminará permanentemente su cuenta y todos los datos. Esta acción no se puede deshacer.",
+    "deleting": "Eliminando...",
+    "credits": "Mis créditos"
+  },
+  "Profile": {
+    "profile": "Perfil",
+    "sharedImages": "Mis imágenes compartidas",
+    "sharedImagesDescription": "Ver y gestionar todas sus imágenes compartidas",
+    "noSharedImages": "Aún no ha compartido ninguna imagen",
+    "shareImagesDesc": "Convierta contenido y seleccione compartir, las imágenes aparecerán aquí",
+    "startConverting": "Comenzar",
+    "viewImage": "Ver imagen",
+    "deleteImageConfirm": "Confirmar eliminación",
+    "deleteImageTitle": "Confirmar eliminación",
+    "deleteImageDescription": "¿Está seguro de que desea eliminar esta imagen compartida? Esta acción no se puede deshacer",
+    "deleteImageInProgress": "Eliminando...",
+    "errorFetchingImages": "Error al cargar las imágenes",
+    "errorDeletingImage": "Error al eliminar la imagen",
+    "manageAccount": "Gestionar su cuenta",
+    "cancel": "Cancelar",
+    "createdAt": "Creado el",
+    "format": "Formato",
+    "sharedImage": "Imagen compartida",
+    "copyUrl": "Copiar enlace",
+    "urlCopied": "Enlace copiado",
+    "delete": "Eliminar"
+  },
+  "home": {
+    "hero": {
+      "title": "Plataforma de desarrollo SaaS moderna",
+      "subtitle": "Solución integral de desarrollo de aplicaciones SaaS que le ayuda a construir aplicaciones web modernas rápidamente. Integra autenticación de usuarios, soporte multiidioma, diseño responsivo y otras funciones principales.",
+      "cta": "Comenzar ahora",
+      "badge": "Favorito de desarrolladores"
+    },
+    "features": {
+      "title": "Características principales",
+      "subtitle": "Soporte completo de stack tecnológico para aplicaciones SaaS modernas"
+    },
+    "howTo": {
+      "title": "Inicio rápido",
+      "subtitle": "Comience el desarrollo de su proyecto en 3 pasos"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "subtitle": "Respuestas a preguntas comunes en el proceso de desarrollo"
+    },
+    "seo": {
+      "title": "Plataforma de desarrollo SaaS moderna | Construcción rápida de aplicaciones",
+      "description": "Solución integral de desarrollo de aplicaciones SaaS con autenticación de usuarios, soporte multiidioma, diseño responsivo y otras funciones principales para construir aplicaciones web modernas rápidamente."
+    }
+  },
+  "languageSwitcher": {
+    "selectLanguage": "Seleccionar idioma"
+  },
+  "footer": {
+    "contact": "Contacto",
+    "privacyPolicy": "Política de privacidad",
+    "terms": "Términos de uso",
+    "copyright": "2025 SaaS Platform. Todos los derechos reservados."
+  },
+  "features": {
+    "title": "Características poderosas",
+    "subtitle": "Soporte completo de funciones para su aplicación SaaS",
+    "list": {
+      "userAuth": {
+        "title": "Sistema de autenticación de usuarios",
+        "description": "Registro completo de usuarios, inicio de sesión, gestión de permisos con soporte para múltiples métodos de autenticación."
+      },
+      "multiLanguage": {
+        "title": "Soporte de internacionalización",
+        "description": "Solución de internacionalización multiidioma integrada para fácil expansión a mercados globales."
+      },
+      "themeSwitch": {
+        "title": "Personalización de temas",
+        "description": "Soporte para cambio de tema claro/oscuro proporcionando una experiencia de usuario de alta calidad."
+      },
+      "responsive": {
+        "title": "Diseño responsivo",
+        "description": "Adaptación perfecta a todos los tamaños de dispositivos, experiencia consistente en escritorio y móvil."
+      },
+      "security": {
+        "title": "Garantía de seguridad",
+        "description": "Mejores prácticas de seguridad integradas para protección integral de aplicaciones y datos de usuarios."
+      },
+      "performance": {
+        "title": "Arquitectura de alto rendimiento",
+        "description": "Basado en stack tecnológico moderno para garantizar respuestas rápidas de la aplicación."
+      }
+    }
+  },
+  "toolTips": {
+    "title": "Módulos de funciones",
+    "subtitle": "Componentes de funciones de negocio flexibles, soportan desarrollo personalizado rápido",
+    "tool1Desc": "Herramienta de procesamiento de datos - Soporta importación y exportación de varios formatos",
+    "tool2Desc": "Herramienta de gestión de contenido - Proporciona editor de texto enriquecido y gestión de medios",
+    "tool3Desc": "Herramienta de análisis - Visualización de datos y generación de informes",
+    "tool4Desc": "Herramienta de colaboración - Trabajo en equipo y notificaciones"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "Lo sentimos, la página que busca no existe.",
+    "message": "La página que visitó puede haber sido movida, eliminada o la dirección ingresada es incorrecta.",
+    "goHome": "Ir al inicio",
+    "goBack": "Volver atrás",
+    "error404": "404"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "description": "Encuentre respuestas a preguntas comunes sobre el uso de la plataforma",
+    "items": [
+      {
+        "q": "¿Qué funciones incluye esta plataforma de desarrollo?",
+        "a": "Incluye autenticación de usuarios, soporte multiidioma, cambio de temas, diseño responsivo, garantías de seguridad y otras funciones esenciales para aplicaciones SaaS modernas."
+      },
+      {
+        "q": "¿Cómo puedo comenzar rápidamente el desarrollo?",
+        "a": "Clone el código del proyecto, instale las dependencias, configure los parámetros necesarios según la documentación e inicie rápidamente el desarrollo de su aplicación SaaS."
+      },
+      {
+        "q": "¿Qué stacks tecnológicos son compatibles?",
+        "a": "Basado en stacks tecnológicos frontend modernos como Next.js, React, TypeScript, Tailwind CSS para garantizar eficiencia de desarrollo y calidad de código."
+      },
+      {
+        "q": "¿Se proporciona soporte técnico?",
+        "a": "Proporcionamos documentación completa y soporte de la comunidad para ayudar a los desarrolladores a resolver rápidamente problemas en el proceso de desarrollo."
+      }
+    ]
+  },
+  "howToSteps": {
+    "title": "Guía de inicio rápido",
+    "description": "Con solo unos pocos pasos simples puede iniciar el desarrollo de su proyecto SaaS",
+    "steps": [
+      {
+        "title": "Obtener código",
+        "icon": "📂",
+        "content": "Clone el código completo del proyecto desde el repositorio a su entorno de desarrollo local."
+      },
+      {
+        "title": "Configurar entorno",
+        "icon": "⚙️",
+        "content": "Instale dependencias del proyecto, configure conexiones de base de datos y variables de entorno necesarias."
+      },
+      {
+        "title": "Personalizar funciones",
+        "icon": "🎨",
+        "content": "Personalice módulos de funciones según requisitos del negocio, ajuste interfaz UI y lógica de interacción."
+      },
+      {
+        "title": "Implementar en línea",
+        "icon": "🚀",
+        "content": "Después de completar el desarrollo, implemente con un clic en la plataforma en la nube y ofrezca servicio oficialmente."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contacto",
+    "intro": "¡Nos encanta escuchar sus comentarios! Ya sea que tenga preguntas, comentarios o necesite ayuda, puede contactarnos a través de la siguiente información.",
+    "general": "Para preguntas generales sobre el uso de la plataforma, contáctenos de la siguiente manera:",
+    "formIntro": "También puede llenar la siguiente información para enviar su solicitud o comentario:"
+  },
+  "contactForm": {
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "sending": "Enviando...",
+    "send": "Enviar mensaje",
+    "submitted": "Su formulario de contacto ha sido enviado..."
+  },
+  "howTo": {
+    "title": "Guía de inicio rápido",
+    "description": "Comience el desarrollo de su proyecto SaaS con unos pocos pasos simples",
+    "readyToTransform": "¿Listo para comenzar el desarrollo de su proyecto?",
+    "startConverting": "Comenzar ahora",
+    "viewShowcase": "Ver casos de éxito"
+  },
+  "credits": {
+    "title": "Gestión de créditos",
+    "subtitle": "Gestione su saldo de créditos, vea registros de uso e historial de compras",
+    "signInPrompt": "Por favor inicie sesión para ver su información de créditos",
+    "fetchError": "Error al obtener información de créditos",
+    "purchaseError": "Compra fallida",
+    "purchaseFailed": "Procesamiento de compra fallido",
+    "purchaseFailedMessage": "Compra de créditos fallida, por favor intente nuevamente o contacte servicio al cliente",
+    "balance": {
+      "title": "Saldo actual",
+      "description": "Esta es la cantidad de créditos disponibles actualmente",
+      "creditsUnit": "créditos"
+    },
+    "packages": {
+      "title": "Comprar créditos",
+      "purchasing": "Comprando...",
+      "purchaseNow": "Comprar ahora",
+      "basic": {
+        "name": "Paquete básico",
+        "description": "Funciones básicas para usuarios individuales"
+      },
+      "premium": {
+        "name": "Paquete premium",
+        "description": "Funciones completas para usuarios profesionales"
+      }
+    },
+    "usage": {
+      "title": "Registros de uso",
+      "noRecords": "No hay registros de uso",
+      "imageGeneration": "Generación de imágenes",
+      "pdfGeneration": "Generación de PDF",
+      "welcomeBonus": "Bono de bienvenida",
+      "paymentSuccess": "Pago exitoso",
+      "adminGrant": "Concedido por administrador",
+      "format": "Formato"
+    },
+    "payment": {
+      "title": "Registros de pago",
+      "noRecords": "No hay registros de pago",
+      "statusCOMPLETED": "Completado",
+      "statusPENDING": "Procesando",
+      "statusFAILED": "Fallido"
+    },
+    "errors": {
+      "INSUFFICIENT_CREDITS": "Créditos insuficientes, saldo actual: {current}, necesario: {required}",
+      "SYSTEM_ERROR": "Error del sistema, por favor intente más tarde",
+      "ORDER_NOT_FOUND": "Orden no encontrada: {orderId}",
+      "ORDER_ALREADY_PROCESSED": "Esta orden ya ha sido procesada",
+      "PAYMENT_COMPLETED": "Recarga exitosa de {credits} créditos"
+    }
+  },
+  "payment": {
+    "verifyingPayment": "Verificando estado de pago...",
+    "pleaseWait": "Por favor espere, esto solo toma unos segundos",
+    "paymentSuccess": "¡Pago exitoso!",
+    "creditsAddedToAccount": "Sus créditos han sido acreditados exitosamente a su cuenta",
+    "creditsAlreadyAdded": "Sus créditos ya han sido acreditados",
+    "orderDetails": "Detalles de la orden",
+    "orderId": "Número de orden",
+    "paymentAmount": "Monto del pago",
+    "creditsReceived": "Créditos recibidos",
+    "orderStatus": "Estado de la orden",
+    "completed": "Completado",
+    "viewCreditBalance": "Ver saldo de créditos",
+    "startGenerating": "Comenzar generación",
+    "backToHome": "Volver al inicio",
+    "helpfulTips": "Consejos útiles",
+    "creditsNeverExpire": "Sus créditos son válidos permanentemente, cada uso de funciones consumirá créditos correspondientes. Puede ver los registros de uso en su perfil en cualquier momento.",
+    "paymentVerificationFailed": "Verificación de pago fallida",
+    "paymentError": "Error de procesamiento de pago",
+    "verificationFailed": "Verificación de estado de pago fallida, por favor contacte servicio al cliente",
+    "missingParameters": "Parámetros de callback de pago incompletos, por favor verifique el enlace de pago o contacte servicio al cliente",
+    "processingPayment": "Procesando pago...",
+    "verifyingSignature": "Verificando firma e información de la orden",
+    "paymentVerified": "Pago ha pasado verificación de seguridad",
+    "signatureVerified": "Verificación de firma de orden exitosa, información de pago es auténtica y válida",
+    "signatureStatus": "Estado de firma",
+    "pending": "Esperando verificación",
+    "retryVerification": "Verificar nuevamente",
+    "orderAlreadyProcessed": "Esta orden ya fue procesada anteriormente, los créditos ya han sido agregados a su cuenta",
+    "backToCreditManagement": "Volver a gestión de créditos",
+    "paymentCancelled": "Pago cancelado",
+    "paymentWasCancelled": "Su pago ha sido cancelado, no se generaron cargos en su cuenta.",
+    "tryAgain": "Intentar nuevamente",
+    "contactSupport": "Contactar soporte"
+  },
+  "pages": {
+    "privacy": {
+      "title": "Política de privacidad",
+      "description": "Nuestra política de privacidad describe cómo recopilamos, usamos y protegemos su información personal al usar los servicios de la plataforma."
+    },
+    "terms": {
+      "title": "Términos de servicio",
+      "description": "Nuestros términos de servicio describen las reglas y pautas para usar los servicios de la plataforma. Por favor lea cuidadosamente antes del uso."
+    },
+    "showcase": {
+      "title": "Casos de éxito",
+      "description": "Explore excelentes ejemplos de proyectos basados en nuestra plataforma y comprenda los escenarios de aplicación de la plataforma.",
+      "keywords": "ejemplos de proyectos, casos de éxito, showcases de aplicaciones"
+    },
+    "contact": {
+      "title": "Contacto",
+      "description": "Contacte nuestro equipo para soporte técnico, comentarios del producto o cualquier pregunta sobre la plataforma."
+    },
+    "blog": {
+      "title": "Blog de desarrolladores",
+      "description": "Comparta consejos de desarrollo, mejores prácticas, tendencias tecnológicas y actualizaciones de la plataforma."
+    }
+  },
+  "blog": {
+    "recentPost": "Publicaciones recientes",
+    "categoryArticles": "Artículos por categoría",
+    "relatedArticles": "Artículos relacionados",
+    "previousPage": "Anterior",
+    "nextPage": "Siguiente",
+    "backToBlog": "Volver al blog"
+  }
+}

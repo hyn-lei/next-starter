@@ -1,0 +1,352 @@
+{
+  "themeToggle": {
+    "light": "浅色",
+    "dark": "深色",
+    "system": "系统",
+    "toggleTheme": "切换主题"
+  },
+  "navigation": {
+    "home": "首页",
+    "features": "功能",
+    "showcase": "展示案例",
+    "howItWorks": "使用方法",
+    "faq": "常见问题",
+    "blog": "博客",
+    "startConverting": "开始使用",
+    "privacy": "隐私",
+    "terms": "条款",
+    "contact": "联系我们",
+    "explore": "探索",
+    "tool1": "数据处理",
+    "tool2": "内容管理",
+    "tool3": "分析统计",
+    "tool4": "协作沟通",
+    "tools": "功能模块",
+    "tool1Desc": "数据处理工具 - 支持多种格式的数据导入导出",
+    "tool2Desc": "内容管理工具 - 提供富文本编辑和媒体管理功能",
+    "tool3Desc": "分析统计工具 - 数据可视化和报表生成功能",
+    "tool4Desc": "协作沟通工具 - 团队协作和消息通知功能"
+  },
+  "userNav": {
+    "signIn": "登录",
+    "signUp": "注册",
+    "profile": "个人资料",
+    "settings": "设置",
+    "billing": "账单",
+    "signOut": "退出登录",
+    "user": "用户",
+    "deleteAccount": "删除账户",
+    "manageAccount": "管理您的账户设置",
+    "accountOverview": "账户概览",
+    "accountInfo": "您的个人信息",
+    "memberSince": "注册时间",
+    "deleteAccountWarning": "警告：账户删除",
+    "deleteAccountDescription": "此操作将永久删除您的账户和所有关联数据。此操作无法撤销。",
+    "deleteAccountConfirm": "请确认您要删除您的账户",
+    "deleteAccountIrreversible": "一旦您的账户被删除，所有数据将被永久移除。此操作无法撤销。",
+    "cancel": "取消",
+    "confirmDelete": "确认删除",
+    "email": "电子邮箱",
+    "name": "姓名",
+    "quickActions": "快捷操作",
+    "commonTasks": "常用功能",
+    "startConverting": "开始使用",
+    "membershipFree": "免费会员",
+    "currentPlan": "当前计划",
+    "freePlanDescription": "免费计划包含基本功能",
+    "dataManagement": "数据管理",
+    "deleteAccountConfirmTitle": "确认删除账户",
+    "deleteAccountConfirmDescription": "此操作将永久删除您的账户和所有数据。此操作无法撤销。",
+    "deleting": "删除中...",
+    "credits": "我的积分"
+  },
+  "Profile": {
+    "profile": "个人资料",
+    "sharedImages": "我的共享图片",
+    "sharedImagesDescription": "查看和管理您分享的所有图片",
+    "noSharedImages": "您还没有分享任何图片",
+    "shareImagesDesc": "转换内容并选择分享，图片将显示在这里",
+    "startConverting": "开始使用",
+    "viewImage": "查看图片",
+    "deleteImageConfirm": "确认删除",
+    "deleteImageTitle": "确认删除",
+    "deleteImageDescription": "您确定要删除这个分享的图片吗？此操作无法撤销",
+    "deleteImageInProgress": "删除中...",
+    "errorFetchingImages": "获取图片失败",
+    "errorDeletingImage": "删除图片失败",
+    "manageAccount": "管理您的帐户",
+    "cancel": "取消",
+    "createdAt": "创建于",
+    "format": "格式",
+    "sharedImage": "分享的图片",
+    "copyUrl": "复制链接",
+    "urlCopied": "链接已复制",
+    "delete": "删除"
+  },
+  "home": {
+    "hero": {
+      "title": "现代化 SaaS 开发平台",
+      "subtitle": "一站式 SaaS 应用开发解决方案，助力您快速构建现代化的 Web 应用。集成用户认证、多语言支持、响应式设计等核心功能。",
+      "cta": "立即开始",
+      "badge": "开发者首选"
+    },
+    "features": {
+      "title": "核心特性",
+      "subtitle": "为现代 SaaS 应用提供完整的技术栈支持"
+    },
+    "howTo": {
+      "title": "快速上手",
+      "subtitle": "3步即可开始您的项目开发"
+    },
+    "faq": {
+      "title": "常见问题",
+      "subtitle": "开发过程中的常见问题解答"
+    },
+    "seo": {
+      "title": "现代化 SaaS 开发平台 | 快速构建应用",
+      "description": "一站式 SaaS 应用开发解决方案，集成用户认证、多语言支持、响应式设计等核心功能，助力您快速构建现代化 Web 应用。"
+    }
+  },
+  "languageSwitcher": {
+    "selectLanguage": "选择语言"
+  },
+  "footer": {
+    "contact": "联系我们",
+    "privacyPolicy": "隐私政策",
+    "terms": "使用条款",
+    "copyright": "2025 SaaS Platform. 保留所有权利。"
+  },
+  "features": {
+    "title": "强大的功能特性",
+    "subtitle": "为您的 SaaS 应用提供完整的功能支持",
+    "list": {
+      "userAuth": {
+        "title": "用户认证系统",
+        "description": "完整的用户注册、登录、权限管理，支持多种认证方式。"
+      },
+      "multiLanguage": {
+        "title": "国际化支持",
+        "description": "内置多语言国际化方案，轻松扩展到全球市场。"
+      },
+      "themeSwitch": {
+        "title": "主题定制",
+        "description": "支持亮色、暗色主题切换，提供优质的用户体验。"
+      },
+      "responsive": {
+        "title": "响应式设计",
+        "description": "完美适配各种设备尺寸，桌面端、移动端体验一致。"
+      },
+      "security": {
+        "title": "安全保障",
+        "description": "内置安全最佳实践，全方位保护应用和用户数据。"
+      },
+      "performance": {
+        "title": "高性能架构",
+        "description": "基于现代技术栈构建，确保应用快速响应。"
+      }
+    }
+  },
+  "toolTips": {
+    "title": "功能模块",
+    "subtitle": "灵活的业务功能组件，支持快速定制开发",
+    "tool1Desc": "数据处理工具 - 支持多种格式的数据导入导出",
+    "tool2Desc": "内容管理工具 - 提供富文本编辑和媒体管理功能",
+    "tool3Desc": "分析统计工具 - 数据可视化和报表生成功能",
+    "tool4Desc": "协作沟通工具 - 团队协作和消息通知功能"
+  },
+  "notFound": {
+    "title": "页面未找到",
+    "description": "抱歉，您要查找的页面不存在。",
+    "message": "您访问的页面可能已被移动、删除或输入的地址有误。",
+    "goHome": "返回首页",
+    "goBack": "返回上一页",
+    "error404": "404"
+  },
+  "faq": {
+    "title": "常见问题",
+    "description": "查找关于平台使用的常见问题解答",
+    "items": [
+      {
+        "q": "这个开发平台包含哪些功能？",
+        "a": "包含用户认证、多语言支持、主题切换、响应式设计、安全保障等现代 SaaS 应用必备功能。"
+      },
+      {
+        "q": "如何快速开始开发？",
+        "a": "克隆项目代码，安装依赖包，根据文档配置必要参数，即可快速开始您的 SaaS 应用开发。"
+      },
+      {
+        "q": "支持哪些技术栈？",
+        "a": "基于 Next.js、React、TypeScript、Tailwind CSS 等现代前端技术栈构建，确保开发效率和代码质量。"
+      },
+      {
+        "q": "是否提供技术支持？",
+        "a": "我们提供完善的文档和社区支持，帮助开发者快速解决开发过程中遇到的问题。"
+      }
+    ]
+  },
+  "howToSteps": {
+    "title": "快速上手指南",
+    "description": "只需几个简单步骤，即可启动您的 SaaS 项目开发",
+    "steps": [
+      {
+        "title": "获取代码",
+        "icon": "📂",
+        "content": "从代码仓库克隆完整的项目代码到本地开发环境。"
+      },
+      {
+        "title": "环境配置",
+        "icon": "⚙️",
+        "content": "安装项目依赖，配置数据库连接和必要的环境变量。"
+      },
+      {
+        "title": "功能定制",
+        "icon": "🎨",
+        "content": "根据业务需求定制功能模块，调整UI界面和交互逻辑。"
+      },
+      {
+        "title": "部署上线",
+        "icon": "🚀",
+        "content": "完成开发后，一键部署到云平台，正式提供服务。"
+      }
+    ]
+  },
+  "contact": {
+    "title": "联系我们",
+    "intro": "我们很乐意听取您的意见！无论您有问题、反馈还是需要帮助，都可以通过以下信息与我们联系。",
+    "general": "有关平台使用的一般问题，请通过以下方式联系我们：",
+    "formIntro": "您也可以填写以下信息发送您的请求或反馈："
+  },
+  "contactForm": {
+    "firstName": "名",
+    "lastName": "姓",
+    "email": "电子邮箱",
+    "message": "留言",
+    "sending": "发送中...",
+    "send": "发送留言",
+    "submitted": "您的联系表单已提交..."
+  },
+  "howTo": {
+    "title": "快速上手指南",
+    "description": "通过几个简单的步骤开始您的SaaS项目开发",
+    "readyToTransform": "准备好开始您的项目开发了吗？",
+    "startConverting": "立即开始",
+    "viewShowcase": "查看案例"
+  },
+  "credits": {
+    "title": "积分管理",
+    "subtitle": "管理您的积分余额，查看使用记录和购买历史",
+    "signInPrompt": "请登录以查看您的积分信息",
+    "fetchError": "获取积分信息失败",
+    "purchaseError": "购买失败",
+    "purchaseFailed": "购买处理失败",
+    "purchaseFailedMessage": "购买积分失败，请重试或联系客服",
+    "balance": {
+      "title": "当前余额",
+      "description": "这是您当前可用的积分数量",
+      "creditsUnit": "积分"
+    },
+    "packages": {
+      "title": "购买积分",
+      "purchasing": "购买中...",
+      "purchaseNow": "立即购买",
+      "basic": {
+        "name": "基础套餐",
+        "description": "适合个人用户的基础功能"
+      },
+      "premium": {
+        "name": "高级套餐",
+        "description": "适合专业用户的完整功能"
+      }
+    },
+    "usage": {
+      "title": "使用记录",
+      "noRecords": "暂无使用记录",
+      "imageGeneration": "图片生成",
+      "pdfGeneration": "PDF生成",
+      "welcomeBonus": "欢迎奖励",
+      "paymentSuccess": "支付成功",
+      "adminGrant": "管理员授予",
+      "format": "格式"
+    },
+    "payment": {
+      "title": "支付记录",
+      "noRecords": "暂无支付记录",
+      "statusCOMPLETED": "已完成",
+      "statusPENDING": "处理中",
+      "statusFAILED": "失败"
+    },
+    "errors": {
+      "INSUFFICIENT_CREDITS": "积分不足，当前余额：{current}，需要：{required}",
+      "SYSTEM_ERROR": "系统错误，请稍后重试",
+      "ORDER_NOT_FOUND": "订单不存在：{orderId}",
+      "ORDER_ALREADY_PROCESSED": "此订单已处理",
+      "PAYMENT_COMPLETED": "成功充值{credits}个积分"
+    }
+  },
+  "payment": {
+    "verifyingPayment": "正在验证支付状态...",
+    "pleaseWait": "请稍候，这只需要几秒钟",
+    "paymentSuccess": "支付成功！",
+    "creditsAddedToAccount": "您的积分已经成功充值到账户",
+    "creditsAlreadyAdded": "您的积分已经充值完成",
+    "orderDetails": "订单详情",
+    "orderId": "订单号",
+    "paymentAmount": "支付金额",
+    "creditsReceived": "获得积分",
+    "orderStatus": "订单状态",
+    "completed": "已完成",
+    "viewCreditBalance": "查看积分余额",
+    "startGenerating": "开始生成",
+    "backToHome": "返回首页",
+    "helpfulTips": "温馨提示",
+    "creditsNeverExpire": "您的积分永久有效，每次使用功能将消耗对应积分。您可以随时在个人资料中查看使用记录。",
+    "paymentVerificationFailed": "支付验证失败",
+    "paymentError": "支付处理异常",
+    "verificationFailed": "验证支付状态失败，请联系客服",
+    "missingParameters": "支付回调参数不完整，请检查支付链接或联系客服",
+    "processingPayment": "正在处理支付...",
+    "verifyingSignature": "正在验证签名和订单信息",
+    "paymentVerified": "支付已通过安全验证",
+    "signatureVerified": "订单签名验证成功，支付信息真实有效",
+    "signatureStatus": "签名状态",
+    "pending": "待验证",
+    "retryVerification": "重新验证",
+    "orderAlreadyProcessed": "此订单之前已处理过，积分已经添加到您的账户中",
+    "backToCreditManagement": "返回积分管理",
+    "paymentCancelled": "支付已取消",
+    "paymentWasCancelled": "您的支付已取消，您的账户未产生任何费用。",
+    "tryAgain": "重试",
+    "contactSupport": "联系客服"
+  },
+  "pages": {
+    "privacy": {
+      "title": "隐私政策",
+      "description": "我们的隐私政策概述了在使用平台服务时如何收集、使用和保护您的个人信息。"
+    },
+    "terms": {
+      "title": "服务条款",
+      "description": "我们的服务条款概述了使用平台服务的规则和指南。使用前请仔细阅读。"
+    },
+    "showcase": {
+      "title": "成功案例",
+      "description": "浏览基于我们平台构建的优秀项目案例，了解平台的应用场景。",
+      "keywords": "项目案例, 成功案例, 应用展示"
+    },
+    "contact": {
+      "title": "联系我们",
+      "description": "与我们的团队联系，获取技术支持、产品反馈或任何关于平台的问题。"
+    },
+    "blog": {
+      "title": "开发者博客",
+      "description": "分享开发技巧、最佳实践、技术趋势和平台更新动态。"
+    }
+  },
+  "blog": {
+    "recentPost": "最新文章",
+    "categoryArticles": "分类文章",
+    "relatedArticles": "相关文章",
+    "previousPage": "上一页",
+    "nextPage": "下一页",
+    "backToBlog": "返回博客"
+  }
+}

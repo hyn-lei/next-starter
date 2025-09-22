@@ -1,0 +1,352 @@
+{
+  "themeToggle": {
+    "light": "ライト",
+    "dark": "ダーク",
+    "system": "システム",
+    "toggleTheme": "テーマ切り替え"
+  },
+  "navigation": {
+    "home": "ホーム",
+    "features": "機能",
+    "showcase": "成功事例",
+    "howItWorks": "使い方",
+    "faq": "よくある質問",
+    "blog": "ブログ",
+    "startConverting": "開始する",
+    "privacy": "プライバシー",
+    "terms": "利用規約",
+    "contact": "お問い合わせ",
+    "explore": "探索",
+    "tool1": "データ処理",
+    "tool2": "コンテンツ管理",
+    "tool3": "分析・統計",
+    "tool4": "コラボレーション",
+    "tools": "機能モジュール",
+    "tool1Desc": "データ処理ツール - 様々な形式のデータインポート・エクスポートをサポート",
+    "tool2Desc": "コンテンツ管理ツール - リッチテキストエディタとメディア管理機能を提供",
+    "tool3Desc": "分析ツール - データ可視化とレポート生成機能",
+    "tool4Desc": "コラボレーションツール - チームワークと通知機能"
+  },
+  "userNav": {
+    "signIn": "ログイン",
+    "signUp": "登録",
+    "profile": "プロフィール",
+    "settings": "設定",
+    "billing": "請求",
+    "signOut": "ログアウト",
+    "user": "ユーザー",
+    "deleteAccount": "アカウント削除",
+    "manageAccount": "アカウント設定を管理",
+    "accountOverview": "アカウント概要",
+    "accountInfo": "あなたの個人情報",
+    "memberSince": "登録日",
+    "deleteAccountWarning": "警告：アカウント削除",
+    "deleteAccountDescription": "この操作はあなたのアカウントと関連するすべてのデータを永久に削除します。この操作は元に戻すことができません。",
+    "deleteAccountConfirm": "アカウントを削除することを確認してください",
+    "deleteAccountIrreversible": "アカウントが削除されると、すべてのデータが永久に削除されます。この操作は元に戻すことができません。",
+    "cancel": "キャンセル",
+    "confirmDelete": "削除を確認",
+    "email": "メールアドレス",
+    "name": "名前",
+    "quickActions": "クイックアクション",
+    "commonTasks": "よく使う機能",
+    "startConverting": "開始する",
+    "membershipFree": "無料会員",
+    "currentPlan": "現在のプラン",
+    "freePlanDescription": "無料プランには基本機能が含まれています",
+    "dataManagement": "データ管理",
+    "deleteAccountConfirmTitle": "アカウント削除の確認",
+    "deleteAccountConfirmDescription": "この操作はあなたのアカウントとすべてのデータを永久に削除します。この操作は元に戻すことができません。",
+    "deleting": "削除中...",
+    "credits": "マイクレジット"
+  },
+  "Profile": {
+    "profile": "プロフィール",
+    "sharedImages": "共有した画像",
+    "sharedImagesDescription": "共有したすべての画像を表示・管理",
+    "noSharedImages": "まだ画像を共有していません",
+    "shareImagesDesc": "コンテンツを変換して共有を選択すると、画像がここに表示されます",
+    "startConverting": "開始する",
+    "viewImage": "画像を表示",
+    "deleteImageConfirm": "削除の確認",
+    "deleteImageTitle": "削除の確認",
+    "deleteImageDescription": "この共有画像を削除してもよろしいですか？この操作は元に戻すことができません",
+    "deleteImageInProgress": "削除中...",
+    "errorFetchingImages": "画像の読み込みエラー",
+    "errorDeletingImage": "画像の削除エラー",
+    "manageAccount": "アカウントを管理",
+    "cancel": "キャンセル",
+    "createdAt": "作成日",
+    "format": "形式",
+    "sharedImage": "共有画像",
+    "copyUrl": "リンクをコピー",
+    "urlCopied": "リンクがコピーされました",
+    "delete": "削除"
+  },
+  "home": {
+    "hero": {
+      "title": "モダンSaaS開発プラットフォーム",
+      "subtitle": "モダンなWebアプリケーションを迅速に構築するためのワンストップSaaSアプリケーション開発ソリューション。ユーザー認証、多言語サポート、レスポンシブデザインなどのコア機能を統合。",
+      "cta": "今すぐ開始",
+      "badge": "開発者のお気に入り"
+    },
+    "features": {
+      "title": "コア機能",
+      "subtitle": "モダンSaaSアプリケーション向けの完全な技術スタックサポート"
+    },
+    "howTo": {
+      "title": "クイックスタート",
+      "subtitle": "3ステップでプロジェクト開発を開始"
+    },
+    "faq": {
+      "title": "よくある質問",
+      "subtitle": "開発過程でのよくある質問への回答"
+    },
+    "seo": {
+      "title": "モダンSaaS開発プラットフォーム | 高速アプリ構築",
+      "description": "ユーザー認証、多言語サポート、レスポンシブデザインなどのコア機能を統合したワンストップSaaSアプリケーション開発ソリューションで、モダンなWebアプリケーションを迅速に構築。"
+    }
+  },
+  "languageSwitcher": {
+    "selectLanguage": "言語を選択"
+  },
+  "footer": {
+    "contact": "お問い合わせ",
+    "privacyPolicy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyright": "2025 SaaS Platform. All rights reserved."
+  },
+  "features": {
+    "title": "強力な機能",
+    "subtitle": "あなたのSaaSアプリケーションのための完全な機能サポート",
+    "list": {
+      "userAuth": {
+        "title": "ユーザー認証システム",
+        "description": "完全なユーザー登録、ログイン、権限管理と複数の認証方法をサポート。"
+      },
+      "multiLanguage": {
+        "title": "国際化サポート",
+        "description": "統合された多言語国際化ソリューションで、グローバル市場への拡張が容易。"
+      },
+      "themeSwitch": {
+        "title": "テーマカスタマイズ",
+        "description": "ライト/ダークテーマの切り替えをサポートし、高品質なユーザー体験を提供。"
+      },
+      "responsive": {
+        "title": "レスポンシブデザイン",
+        "description": "すべてのデバイスサイズに完璧に適応し、デスクトップとモバイルで一貫した体験。"
+      },
+      "security": {
+        "title": "セキュリティ保証",
+        "description": "統合されたセキュリティベストプラクティスで、アプリケーションとユーザーデータの包括的保護。"
+      },
+      "performance": {
+        "title": "高性能アーキテクチャ",
+        "description": "モダンな技術スタックに基づいて構築され、アプリケーションの高速応答を保証。"
+      }
+    }
+  },
+  "toolTips": {
+    "title": "機能モジュール",
+    "subtitle": "柔軟なビジネス機能コンポーネント、迅速なカスタム開発をサポート",
+    "tool1Desc": "データ処理ツール - 様々な形式のデータインポート・エクスポートをサポート",
+    "tool2Desc": "コンテンツ管理ツール - リッチテキストエディタとメディア管理機能を提供",
+    "tool3Desc": "分析ツール - データ可視化とレポート生成機能",
+    "tool4Desc": "コラボレーションツール - チームワークと通知機能"
+  },
+  "notFound": {
+    "title": "ページが見つかりません",
+    "description": "申し訳ございませんが、お探しのページは存在しません。",
+    "message": "アクセスしたページは移動、削除されたか、入力されたアドレスが間違っている可能性があります。",
+    "goHome": "ホームに戻る",
+    "goBack": "戻る",
+    "error404": "404"
+  },
+  "faq": {
+    "title": "よくある質問",
+    "description": "プラットフォーム使用に関するよくある質問への回答を見つける",
+    "items": [
+      {
+        "q": "この開発プラットフォームにはどのような機能が含まれていますか？",
+        "a": "ユーザー認証、多言語サポート、テーマ切り替え、レスポンシブデザイン、セキュリティ保証など、モダンSaaSアプリケーションに必要な機能が含まれています。"
+      },
+      {
+        "q": "開発を迅速に開始するにはどうすればよいですか？",
+        "a": "プロジェクトコードをクローンし、依存関係をインストールし、ドキュメントに従って必要なパラメータを設定すれば、SaaSアプリケーション開発を迅速に開始できます。"
+      },
+      {
+        "q": "どのような技術スタックがサポートされていますか？",
+        "a": "Next.js、React、TypeScript、Tailwind CSSなどのモダンなフロントエンド技術スタックに基づいて構築され、開発効率とコード品質を保証します。"
+      },
+      {
+        "q": "技術サポートは提供されていますか？",
+        "a": "包括的なドキュメントとコミュニティサポートを提供し、開発者が開発過程で遭遇する問題を迅速に解決できるよう支援します。"
+      }
+    ]
+  },
+  "howToSteps": {
+    "title": "クイックスタートガイド",
+    "description": "わずか数つの簡単なステップでSaaSプロジェクト開発を開始できます",
+    "steps": [
+      {
+        "title": "コードを取得",
+        "icon": "📂",
+        "content": "リポジトリから完全なプロジェクトコードをローカル開発環境にクローンします。"
+      },
+      {
+        "title": "環境設定",
+        "icon": "⚙️",
+        "content": "プロジェクトの依存関係をインストールし、データベース接続と必要な環境変数を設定します。"
+      },
+      {
+        "title": "機能カスタマイズ",
+        "icon": "🎨",
+        "content": "ビジネス要件に応じて機能モジュールをカスタマイズし、UIインターフェースとインタラクションロジックを調整します。"
+      },
+      {
+        "title": "オンライン展開",
+        "icon": "🚀",
+        "content": "開発完了後、ワンクリックでクラウドプラットフォームに展開し、正式にサービスを提供します。"
+      }
+    ]
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "intro": "ご意見をお聞かせください！質問、フィードバック、サポートが必要な場合は、以下の情報からお問い合わせください。",
+    "general": "プラットフォーム使用に関する一般的な質問については、以下の方法でお問い合わせください：",
+    "formIntro": "以下の情報を入力してリクエストやフィードバックを送信することもできます："
+  },
+  "contactForm": {
+    "firstName": "名",
+    "lastName": "姓",
+    "email": "メールアドレス",
+    "message": "メッセージ",
+    "sending": "送信中...",
+    "send": "メッセージを送信",
+    "submitted": "お問い合わせフォームが送信されました..."
+  },
+  "howTo": {
+    "title": "クイックスタートガイド",
+    "description": "いくつかの簡単なステップでSaaSプロジェクト開発を開始",
+    "readyToTransform": "プロジェクト開発を開始する準備はできましたか？",
+    "startConverting": "今すぐ開始",
+    "viewShowcase": "成功事例を見る"
+  },
+  "credits": {
+    "title": "クレジット管理",
+    "subtitle": "クレジット残高を管理し、使用記録と購入履歴を確認",
+    "signInPrompt": "クレジット情報を表示するにはログインしてください",
+    "fetchError": "クレジット情報の取得に失敗しました",
+    "purchaseError": "購入に失敗しました",
+    "purchaseFailed": "購入処理に失敗しました",
+    "purchaseFailedMessage": "クレジット購入に失敗しました。再試行するかカスタマーサービスにお問い合わせください",
+    "balance": {
+      "title": "現在の残高",
+      "description": "これは現在利用可能なクレジット数です",
+      "creditsUnit": "クレジット"
+    },
+    "packages": {
+      "title": "クレジット購入",
+      "purchasing": "購入中...",
+      "purchaseNow": "今すぐ購入",
+      "basic": {
+        "name": "ベーシックパッケージ",
+        "description": "個人ユーザー向けの基本機能"
+      },
+      "premium": {
+        "name": "プレミアムパッケージ",
+        "description": "プロフェッショナルユーザー向けの完全機能"
+      }
+    },
+    "usage": {
+      "title": "使用記録",
+      "noRecords": "使用記録がありません",
+      "imageGeneration": "画像生成",
+      "pdfGeneration": "PDF生成",
+      "welcomeBonus": "ウェルカムボーナス",
+      "paymentSuccess": "支払い成功",
+      "adminGrant": "管理者付与",
+      "format": "形式"
+    },
+    "payment": {
+      "title": "支払い記録",
+      "noRecords": "支払い記録がありません",
+      "statusCOMPLETED": "完了",
+      "statusPENDING": "処理中",
+      "statusFAILED": "失敗"
+    },
+    "errors": {
+      "INSUFFICIENT_CREDITS": "クレジット不足、現在の残高：{current}、必要：{required}",
+      "SYSTEM_ERROR": "システムエラー、後でもう一度お試しください",
+      "ORDER_NOT_FOUND": "注文が見つかりません：{orderId}",
+      "ORDER_ALREADY_PROCESSED": "この注文は既に処理されています",
+      "PAYMENT_COMPLETED": "{credits}クレジットのチャージが成功しました"
+    }
+  },
+  "payment": {
+    "verifyingPayment": "支払い状況を確認中...",
+    "pleaseWait": "お待ちください。数秒で完了します",
+    "paymentSuccess": "支払い成功！",
+    "creditsAddedToAccount": "クレジットがアカウントに正常にチャージされました",
+    "creditsAlreadyAdded": "クレジットは既にチャージ済みです",
+    "orderDetails": "注文詳細",
+    "orderId": "注文番号",
+    "paymentAmount": "支払い金額",
+    "creditsReceived": "受け取ったクレジット",
+    "orderStatus": "注文状況",
+    "completed": "完了",
+    "viewCreditBalance": "クレジット残高を表示",
+    "startGenerating": "生成を開始",
+    "backToHome": "ホームに戻る",
+    "helpfulTips": "役立つヒント",
+    "creditsNeverExpire": "クレジットは永続的に有効で、機能を使用するたびに対応するクレジットが消費されます。プロフィールでいつでも使用記録を確認できます。",
+    "paymentVerificationFailed": "支払い検証に失敗しました",
+    "paymentError": "支払い処理エラー",
+    "verificationFailed": "支払い状況の検証に失敗しました。カスタマーサービスにお問い合わせください",
+    "missingParameters": "支払いコールバックパラメータが不完全です。支払いリンクを確認するかカスタマーサービスにお問い合わせください",
+    "processingPayment": "支払い処理中...",
+    "verifyingSignature": "署名と注文情報を検証中",
+    "paymentVerified": "支払いがセキュリティ検証を通過しました",
+    "signatureVerified": "注文署名の検証が成功しました。支払い情報は真正で有効です",
+    "signatureStatus": "署名状況",
+    "pending": "検証待ち",
+    "retryVerification": "再検証",
+    "orderAlreadyProcessed": "この注文は以前に処理済みで、クレジットは既にアカウントに追加されています",
+    "backToCreditManagement": "クレジット管理に戻る",
+    "paymentCancelled": "支払いがキャンセルされました",
+    "paymentWasCancelled": "支払いがキャンセルされ、アカウントに料金は発生していません。",
+    "tryAgain": "再試行",
+    "contactSupport": "サポートに連絡"
+  },
+  "pages": {
+    "privacy": {
+      "title": "プライバシーポリシー",
+      "description": "プラットフォームサービス使用時の個人情報の収集、使用、保護方法についてのプライバシーポリシー。"
+    },
+    "terms": {
+      "title": "サービス利用規約",
+      "description": "プラットフォームサービス使用のルールとガイドラインについてのサービス利用規約。使用前によくお読みください。"
+    },
+    "showcase": {
+      "title": "成功事例",
+      "description": "プラットフォームに基づいて構築された優秀なプロジェクト例を閲覧し、プラットフォームの応用シナリオを理解。",
+      "keywords": "プロジェクト例, 成功事例, アプリケーションショーケース"
+    },
+    "contact": {
+      "title": "お問い合わせ",
+      "description": "技術サポート、製品フィードバック、プラットフォームに関する質問について、チームにお問い合わせください。"
+    },
+    "blog": {
+      "title": "開発者ブログ",
+      "description": "開発のコツ、ベストプラクティス、技術トレンド、プラットフォーム更新情報を共有。"
+    }
+  },
+  "blog": {
+    "recentPost": "最新記事",
+    "categoryArticles": "カテゴリ記事",
+    "relatedArticles": "関連記事",
+    "previousPage": "前のページ",
+    "nextPage": "次のページ",
+    "backToBlog": "ブログに戻る"
+  }
+}

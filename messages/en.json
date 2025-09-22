@@ -1,0 +1,352 @@
+{
+  "themeToggle": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "toggleTheme": "Toggle Theme"
+  },
+  "navigation": {
+    "home": "Home",
+    "features": "Features",
+    "showcase": "Showcase",
+    "howItWorks": "How It Works",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "startConverting": "Get Started",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "contact": "Contact",
+    "explore": "Explore",
+    "tool1": "Data Processing",
+    "tool2": "Content Management",
+    "tool3": "Analytics",
+    "tool4": "Collaboration",
+    "tools": "Feature Modules",
+    "tool1Desc": "Data processing tool - supports import and export of multiple formats",
+    "tool2Desc": "Content management tool - provides rich text editing and media management",
+    "tool3Desc": "Analytics tool - data visualization and report generation",
+    "tool4Desc": "Collaboration tool - team collaboration and notification features"
+  },
+  "userNav": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "profile": "Profile",
+    "settings": "Settings",
+    "billing": "Billing",
+    "signOut": "Sign Out",
+    "user": "User",
+    "deleteAccount": "Delete Account",
+    "manageAccount": "Manage your account settings",
+    "accountOverview": "Account Overview",
+    "accountInfo": "Your personal information",
+    "memberSince": "Member since",
+    "deleteAccountWarning": "Warning: Account Deletion",
+    "deleteAccountDescription": "This action permanently deletes your account and all associated data. This cannot be undone.",
+    "deleteAccountConfirm": "Please confirm that you want to delete your account",
+    "deleteAccountIrreversible": "Once your account is deleted, all data will be permanently removed. This action cannot be undone.",
+    "cancel": "Cancel",
+    "confirmDelete": "Confirm Delete",
+    "email": "Email",
+    "name": "Name",
+    "quickActions": "Quick Actions",
+    "commonTasks": "Common tasks",
+    "startConverting": "Get Started",
+    "membershipFree": "Free Plan",
+    "currentPlan": "Current Plan",
+    "freePlanDescription": "Free plan with basic features",
+    "dataManagement": "Data Management",
+    "deleteAccountConfirmTitle": "Confirm Account Deletion",
+    "deleteAccountConfirmDescription": "This action will permanently delete your account and all your data. This cannot be undone.",
+    "deleting": "Deleting...",
+    "credits": "My Credits"
+  },
+  "Profile": {
+    "profile": "Profile",
+    "sharedImages": "My Shared Images",
+    "sharedImagesDescription": "View and manage all your shared images",
+    "noSharedImages": "You haven't shared any images yet",
+    "shareImagesDesc": "Convert content and choose to share, images will appear here",
+    "startConverting": "Get Started",
+    "viewImage": "View Image",
+    "deleteImageConfirm": "Confirm Delete",
+    "deleteImageTitle": "Confirm Deletion",
+    "deleteImageDescription": "Are you sure you want to delete this shared image? This action cannot be undone",
+    "deleteImageInProgress": "Deleting...",
+    "errorFetchingImages": "Failed to fetch images",
+    "errorDeletingImage": "Failed to delete image",
+    "manageAccount": "Manage your account",
+    "cancel": "Cancel",
+    "createdAt": "Created at",
+    "format": "Format",
+    "sharedImage": "Shared Image",
+    "copyUrl": "Copy Link",
+    "urlCopied": "Link Copied",
+    "delete": "Delete"
+  },
+  "home": {
+    "hero": {
+      "title": "Modern SaaS Development Platform",
+      "subtitle": "Comprehensive SaaS application development solution to help you quickly build modern Web applications. Integrated with user authentication, multi-language support, responsive design and other core features.",
+      "cta": "Get Started Now",
+      "badge": "Developer's Choice"
+    },
+    "features": {
+      "title": "Core Features",
+      "subtitle": "Complete technology stack support for modern SaaS applications"
+    },
+    "howTo": {
+      "title": "Quick Start",
+      "subtitle": "Start your project development in 3 steps"
+    },
+    "faq": {
+      "title": "FAQ",
+      "subtitle": "Common questions during development process"
+    },
+    "seo": {
+      "title": "Modern SaaS Development Platform | Rapid Application Building",
+      "description": "Comprehensive SaaS application development solution with integrated user authentication, multi-language support, responsive design and other core features to help you quickly build modern Web applications."
+    }
+  },
+  "languageSwitcher": {
+    "selectLanguage": "Select language"
+  },
+  "footer": {
+    "contact": "Contact",
+    "privacyPolicy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "copyright": "2025 SaaS Platform. All rights reserved."
+  },
+  "features": {
+    "title": "Powerful Feature Set",
+    "subtitle": "Complete feature support for your SaaS application",
+    "list": {
+      "userAuth": {
+        "title": "User Authentication System",
+        "description": "Complete user registration, login, and permission management with multiple authentication methods."
+      },
+      "multiLanguage": {
+        "title": "Internationalization Support",
+        "description": "Built-in multi-language internationalization solution for easy expansion to global markets."
+      },
+      "themeSwitch": {
+        "title": "Theme Customization",
+        "description": "Support for light and dark theme switching, providing premium user experience."
+      },
+      "responsive": {
+        "title": "Responsive Design",
+        "description": "Perfect adaptation to various device sizes, consistent experience on desktop and mobile."
+      },
+      "security": {
+        "title": "Security Assurance",
+        "description": "Built-in security best practices for comprehensive protection of applications and user data."
+      },
+      "performance": {
+        "title": "High Performance Architecture",
+        "description": "Built on modern technology stack to ensure fast application response."
+      }
+    }
+  },
+  "toolTips": {
+    "title": "Feature Modules",
+    "subtitle": "Flexible business function components that support rapid custom development",
+    "tool1Desc": "Business function module 1 - can be customized for any core functionality",
+    "tool2Desc": "Business function module 2 - supports flexible configuration and extension",
+    "tool3Desc": "Business function module 3 - provides rich API interfaces",
+    "tool4Desc": "Business function module 4 - supports third-party service integration"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, the page you are looking for does not exist.",
+    "message": "The page you visited may have been moved, deleted, or you entered the wrong address.",
+    "goHome": "Go Home",
+    "goBack": "Go Back",
+    "error404": "404"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Find answers to common questions about platform usage",
+    "items": [
+      {
+        "q": "What features does this development platform include?",
+        "a": "Includes user authentication, multi-language support, theme switching, responsive design, security assurance and other essential features for modern SaaS applications."
+      },
+      {
+        "q": "How to get started quickly?",
+        "a": "Clone the project code, install dependencies, configure necessary parameters according to documentation, and you can quickly start your SaaS application development."
+      },
+      {
+        "q": "What technology stack is supported?",
+        "a": "Built on modern frontend technology stack including Next.js, React, TypeScript, Tailwind CSS to ensure development efficiency and code quality."
+      },
+      {
+        "q": "Is technical support provided?",
+        "a": "We provide comprehensive documentation and community support to help developers quickly resolve issues encountered during development."
+      }
+    ]
+  },
+  "howToSteps": {
+    "title": "Quick Start Guide",
+    "description": "Launch your SaaS project development in just a few simple steps",
+    "steps": [
+      {
+        "title": "Get Code",
+        "icon": "📂",
+        "content": "Clone the complete project code from the repository to your local development environment."
+      },
+      {
+        "title": "Environment Setup",
+        "icon": "⚙️",
+        "content": "Install project dependencies, configure database connections and necessary environment variables."
+      },
+      {
+        "title": "Feature Customization",
+        "icon": "🎨",
+        "content": "Customize function modules according to business needs, adjust UI interface and interaction logic."
+      },
+      {
+        "title": "Deploy Live",
+        "icon": "🚀",
+        "content": "After completing development, deploy to cloud platform with one click to officially provide services."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "intro": "We'd love to hear from you! Whether you have questions, feedback, or need assistance, feel free to reach out to us using the information below.",
+    "general": "For general questions about platform usage, please contact us at:",
+    "formIntro": "You can also fill in the following information to send your request or feedback:"
+  },
+  "contactForm": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "message": "Message",
+    "sending": "Sending...",
+    "send": "Send Message",
+    "submitted": "Your contact form has been submitted..."
+  },
+  "howTo": {
+    "title": "Quick Start Guide",
+    "description": "Start your SaaS project development through a few simple steps",
+    "readyToTransform": "Ready to start your project development?",
+    "startConverting": "Get Started Now",
+    "viewShowcase": "View Showcase"
+  },
+  "credits": {
+    "title": "Credits Management",
+    "subtitle": "Manage your credit balance, view usage records and purchase history",
+    "signInPrompt": "Please sign in to view your credit information",
+    "fetchError": "Failed to fetch credit information",
+    "purchaseError": "Purchase failed",
+    "purchaseFailed": "Purchase processing failed",
+    "purchaseFailedMessage": "Failed to purchase credits, please try again or contact support",
+    "balance": {
+      "title": "Current Balance",
+      "description": "This is your current available credit amount",
+      "creditsUnit": "Credits"
+    },
+    "packages": {
+      "title": "Purchase Credits",
+      "purchasing": "Purchasing...",
+      "purchaseNow": "Purchase Now",
+      "basic": {
+        "name": "Basic Package",
+        "description": "Basic features suitable for individual users"
+      },
+      "premium": {
+        "name": "Premium Package",
+        "description": "Complete features suitable for professional users"
+      }
+    },
+    "usage": {
+      "title": "Usage History",
+      "noRecords": "No usage records found",
+      "imageGeneration": "Image Generation",
+      "pdfGeneration": "PDF Generation",
+      "welcomeBonus": "Welcome Bonus",
+      "paymentSuccess": "Payment Success",
+      "adminGrant": "Admin Grant",
+      "format": "Format"
+    },
+    "payment": {
+      "title": "Payment History",
+      "noRecords": "No payment records found",
+      "statusCOMPLETED": "Completed",
+      "statusPENDING": "Pending",
+      "statusFAILED": "Failed"
+    },
+    "errors": {
+      "INSUFFICIENT_CREDITS": "Insufficient credits. Current: {current}, Required: {required}",
+      "SYSTEM_ERROR": "System error, please try again later",
+      "ORDER_NOT_FOUND": "Order not found: {orderId}",
+      "ORDER_ALREADY_PROCESSED": "This order has already been processed",
+      "PAYMENT_COMPLETED": "Successfully credited {credits} credits"
+    }
+  },
+  "payment": {
+    "verifyingPayment": "Verifying Payment Status...",
+    "pleaseWait": "Please wait, this will only take a few seconds",
+    "paymentSuccess": "Payment Successful!",
+    "creditsAddedToAccount": "Your credits have been successfully added to your account",
+    "creditsAlreadyAdded": "Your credits have been added",
+    "orderDetails": "Order Details",
+    "orderId": "Order ID",
+    "paymentAmount": "Payment Amount",
+    "creditsReceived": "Credits Received",
+    "orderStatus": "Order Status",
+    "completed": "Completed",
+    "viewCreditBalance": "View Credit Balance",
+    "startGenerating": "Start Generating",
+    "backToHome": "Back to Home",
+    "helpfulTips": "Helpful Tips",
+    "creditsNeverExpire": "Your credits never expire. Each feature usage will consume corresponding credits. You can view usage records in your profile at any time.",
+    "paymentVerificationFailed": "Payment Verification Failed",
+    "paymentError": "Payment processing error",
+    "verificationFailed": "Payment verification failed, please contact support",
+    "missingParameters": "Payment callback parameters incomplete, please check the payment link or contact support",
+    "processingPayment": "Processing payment...",
+    "verifyingSignature": "Verifying signature and order information",
+    "paymentVerified": "Payment verified securely",
+    "signatureVerified": "Order signature verification successful, payment information is authentic",
+    "signatureStatus": "Signature Status",
+    "pending": "Pending",
+    "retryVerification": "Retry verification",
+    "orderAlreadyProcessed": "This order was previously processed, credits have been added to your account",
+    "backToCreditManagement": "Back to Credit Management",
+    "paymentCancelled": "Payment Cancelled",
+    "paymentWasCancelled": "Your payment was cancelled. No charges were made to your account.",
+    "tryAgain": "Try Again",
+    "contactSupport": "Contact Support"
+  },
+  "pages": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "Our privacy policy outlines how we collect, use, and protect your personal information when using platform services."
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "description": "Our terms of service outline the rules and guidelines for using platform services. Please read carefully before use."
+    },
+    "showcase": {
+      "title": "Success Stories",
+      "description": "Browse excellent project cases built on our platform to understand application scenarios.",
+      "keywords": "project cases, success stories, application showcase"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Contact our team for technical support, product feedback, or any questions about the platform."
+    },
+    "blog": {
+      "title": "Developer Blog",
+      "description": "Share development tips, best practices, technology trends, and platform updates."
+    }
+  },
+  "blog": {
+    "recentPost": "Recent Posts",
+    "categoryArticles": "Category Articles",
+    "relatedArticles": "Related Articles",
+    "previousPage": "Previous",
+    "nextPage": "Next",
+    "backToBlog": "Back to Blog"
+  }
+}
