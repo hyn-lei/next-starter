@@ -5,7 +5,7 @@ import rehypeRaw from "rehype-raw";
 import ReactMarkdown, { Components } from "react-markdown";
 // import 'highlight.js/styles/nord.css';
 import rehypeHighlight from "rehype-highlight";
-import remarkUnwrapImages from "remark-unwrap-images";
+import rehypeUnwrapImages from "rehype-unwrap-images";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 // import 'katex/dist/katex.min.css';
@@ -248,11 +248,11 @@ export default function MdxRender({
         remarkPlugins={[
           remarkMath,
           remarkGfm,
-          remarkUnwrapImages,
-          remarkBreaks,
+          // remarkBreaks,
         ]}
         rehypePlugins={[
           rehypeRaw,
+          rehypeUnwrapImages,
           // @ts-ignore
           // [rehypeMathjax],
           [

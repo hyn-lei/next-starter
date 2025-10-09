@@ -188,7 +188,7 @@ export default async function PostSlugPage({
         hideDebugLabel={true}
       />
 
-      <div className={"overflow-hidden"}>
+      <div className={"overflow-hidden prose prose-image:inline"}>
         <MdxRender markdownText={post.content} />
       </div>
 
