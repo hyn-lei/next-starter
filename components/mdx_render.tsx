@@ -13,7 +13,7 @@ import "./katex-custom.css";
 
 // @ts-ignore
 import rehypeMathjax from "rehype-mathjax";
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import remarkBreaks from "remark-breaks";
 import { useHighlightStyle } from "@/hooks/useHighlightStyle";
 
@@ -155,7 +155,7 @@ export default function MdxRender({
 
   const fontFamily = getFontFamily(selectedFont);
 
-  const initMermaid = async () => {
+  const initMermaid = useCallback(async () => {
     try {
       const mermaidInstance = await loadMermaid();
 
@@ -184,7 +184,7 @@ export default function MdxRender({
       console.error("Failed to load Mermaid:", error);
       return null;
     }
-  };
+  }, [fontFamily]);
 
   useEffect(() => {
     if (!markdownText) return;
@@ -236,7 +236,7 @@ export default function MdxRender({
       });
     }, 800);
     return () => clearTimeout(timer);
-  }, [markdownText, selectedFont]);
+  }, [markdownText, selectedFont, initMermaid]);
 
   const ReactMarkdownMemo = useMemo(() => {
     const mergedComponents = components

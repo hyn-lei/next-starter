@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { useAuth } from "@clerk/nextjs";
 import { useTranslations } from "next-intl";
 
@@ -46,13 +46,8 @@ export default function ProfileCreditsPage() {
   const [loading, setLoading] = useState(true);
   const [purchasing, setPurchasing] = useState<string | null>(null);
 
-  useEffect(() => {
-    if (isLoaded && userId) {
-      fetchCreditInfo();
-    }
-  }, [isLoaded, userId]);
-
-  const fetchCreditInfo = async () => {
+  const fetchCreditInfo = useCallback(async () => {
+    setLoading(true);
     try {
       const response = await fetch("/api/payment");
       if (response.ok) {
@@ -64,7 +59,15 @@ export default function ProfileCreditsPage() {
     } finally {
       setLoading(false);
     }
-  };
+  }, [t]);
+
+  useEffect(() => {
+    if (isLoaded && userId) {
+      fetchCreditInfo();
+    } else if (isLoaded) {
+      setLoading(false);
+    }
+  }, [isLoaded, userId, fetchCreditInfo]);
 
   const handlePurchase = async (packageType: string) => {
     if (!userId || purchasing) return;

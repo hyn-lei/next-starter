@@ -1,6 +1,6 @@
-// middleware.ts
+// proxy.ts
 
-import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
+import { clerkMiddleware } from "@clerk/nextjs/server";
 import createIntlMiddleware from "next-intl/middleware";
 import { routing } from "./i18n/routing";
 import { NextRequest } from "next/server";
@@ -16,8 +16,6 @@ function stripLocaleFromPath(pathname: string) {
 }
 
 const protectedPaths = ["/profile"];
-// Define which paths are public (like sign-in page)
-const isProtectedRoute = createRouteMatcher(protectedPaths);
 
 export function isProtectedPath(req: NextRequest) {
   const pathname = req.nextUrl.pathname;
@@ -32,8 +30,8 @@ const intlMiddleware = createIntlMiddleware({
   localePrefix: "as-needed",
 });
 
-// Integrate middleware logic
-export default clerkMiddleware(async (auth, req: NextRequest) => {
+// Integrate proxy logic
+const proxy = clerkMiddleware(async (auth, req: NextRequest) => {
   console.log(req.nextUrl.pathname);
 
   // Check if it's an API route
@@ -53,6 +51,8 @@ export default clerkMiddleware(async (auth, req: NextRequest) => {
   // Perform internationalization path processing
   return intlMiddleware(req);
 });
+
+export default proxy;
 
 // Configure matcher to match all page requests at once
 export const config = {

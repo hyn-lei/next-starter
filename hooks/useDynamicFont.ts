@@ -147,9 +147,27 @@ export function useDynamicFont(fontOption?: {
   }, []);
 
   useEffect(() => {
-    if (!fontOption) return;
+    if (!fontOption) {
+      const schedule =
+        typeof queueMicrotask === "function"
+          ? queueMicrotask
+          : (cb: () => void) => Promise.resolve().then(cb);
+      schedule(() => setIsLoading(false));
+      return;
+    }
 
-    setIsLoading(true);
+    const schedule =
+      typeof queueMicrotask === "function"
+        ? queueMicrotask
+        : (cb: () => void) => Promise.resolve().then(cb);
+
+    let active = true;
+
+    schedule(() => {
+      if (active) {
+        setIsLoading(true);
+      }
+    });
 
     // Preload web fonts for selected fonts
     const fontsToLoad = [fontOption.base, fontOption.heading, fontOption.mono];
@@ -185,10 +203,16 @@ export function useDynamicFont(fontOption?: {
       }
     });
 
-    // Give some time for fonts to start loading
-    setTimeout(() => {
-      setIsLoading(false);
+    const timeoutId = window.setTimeout(() => {
+      if (active) {
+        setIsLoading(false);
+      }
     }, 100);
+
+    return () => {
+      active = false;
+      window.clearTimeout(timeoutId);
+    };
   }, [fontOption]);
 
   return {
