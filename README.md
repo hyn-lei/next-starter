@@ -5,10 +5,10 @@ A comprehensive Next.js-based SaaS development starter template with multi-langu
 ## 🚀 Features Overview
 
 ### ✅ Core Framework & Architecture
-- **Next.js** (Latest version) - Multi-layout and multi-language support
+- **Next.js 16 + React 19** - Multi-layout and multi-language support with the App Router
 - **404 Not Found** pages with internationalization
 - **ESLint configuration** - Optimized with unused-var detection disabled
-- **Middleware.ts** - Multi-language routing and authentication protection
+- **proxy.ts** - Unified Clerk authentication and next-intl locale routing
 - **File structure**: `app/`, `app/api/`, `components/`, `lib/`, `hooks/`, `content/`
 - **Health check endpoint**: [http://localhost:3000/api/health](http://localhost:3000/api/health)
 
@@ -58,6 +58,7 @@ A comprehensive Next.js-based SaaS development starter template with multi-langu
 - **Prettier** - Code formatting
 - **VS Code configuration** - Auto-format on save (requires Prettier extension)
 - **TypeScript** - Full type safety
+- **Turbopack** - Enabled for `npm run dev` and `npm run build` for faster rebuilds
 
 ### ✅ Advertising & Analytics
 - **Google Analytics** - Dynamic loading
@@ -100,10 +101,17 @@ Create `.env.local` based on `.env.example`:
 # Authentication
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
+CLERK_WEBHOOK_SECRET=
 
 # Payment
 CREEM_API_KEY=
 CREEM_WEBHOOK_SECRET=
+CREEM_SERVER_MODE=1
+CREEM_PRODUCT_BASIC=
+CREEM_PRODUCT_PREMIUM=
+
+# URLs
+NEXT_PUBLIC_BASE_URL=
 
 # Database (if using Prisma)
 DATABASE_URL=
@@ -132,7 +140,7 @@ npm run build
 npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser.
+Open [http://localhost:3000](http://localhost:3000) during development or [http://localhost:3003](http://localhost:3003) after `npm start`.
 
 ## 📁 Project Structure
 
@@ -147,7 +155,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser.
 ├── lib/                  # Utility functions
 ├── messages/             # i18n translation files
 ├── public/               # Static assets
-└── middleware.ts         # Route middleware
+└── proxy.ts              # Clerk + next-intl proxy handler
 ```
 
 ## 🌍 Supported Languages
