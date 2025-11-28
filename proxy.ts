@@ -24,11 +24,7 @@ export function isProtectedPath(req: NextRequest) {
   return protectedPaths.some((path) => cleanPath.startsWith(path));
 }
 
-const intlMiddleware = createIntlMiddleware({
-  locales: routing.locales,
-  defaultLocale: routing.defaultLocale,
-  localePrefix: "as-needed",
-});
+const intlMiddleware = createIntlMiddleware(routing);
 
 // Integrate proxy logic
 const proxy = clerkMiddleware(async (auth, req: NextRequest) => {
